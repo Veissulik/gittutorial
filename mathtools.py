@@ -7,6 +7,7 @@ def geometric(a, ratio, n):
     #Use the sum formula:
     return a*(1-ratio**n)/(1-ratio)
 
+
 def isPrime(n):
     '''Returns true if a number n is a prime number'''
     if n == 2 or n == 3:
